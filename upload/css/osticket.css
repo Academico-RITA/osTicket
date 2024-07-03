@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;500&display=swap');
+
+* {
+    font-family: 'Hind', sans-serif;
+}
+
+/*nuevo*/
+    #header{
+        margin: 20px 80px 10px 80px;
+    }
+    .pull-right:not(.avatar){
+        padding-top: 20px !important;
+    }
+    #nav{
+        background-image: none !important;
+        height: 50px !important;
+        padding: 2px 0px !important;
+        background-color: #303132 !important;
+        min-width: 100% !important;
+        margin: 15px 0px !important;
+        text-align: center !important;
+    }
+    #nav li a.active, #nav li a:hover {
+        background-color: transparent !important;
+        color: white !important;
+    }
+    #nav li a {
+        color: white !important;
+        font-size: 16px !important;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+        font-weight: 500 !important;
+    }
+    #nav li{
+        line-height: 48px !important;
+        padding: 0 28px !important;
+    }
+    .active .home{
+        background-color: none !important;
+    }
+    #container{
+        min-width: 100% !important;
+        -webkit-box-shadow: none !important;
+    }
+    #landing_page{
+        display: grid;
+        align-items: baseline;
+        justify-items: center;
+        align-content: center;
+        justify-content: space-evenly;
+    }
+    .front-page-button {
+        display: inline-flex !important;
+    }
+    .main-content {
+        width: 65% !important;
+    }
+    
+    #content .pull-right:not(.avatar){
+        margin: auto !important;
+        width: 40% !important;
+        text-align: center !important;
+    }
+
+    #ticketTable {
+        margin: auto;
+    }
+    #content .pull-right:not(.states):not(.avatar){
+        padding-top: 50px !important;
+    }
+
+    .blue.button, .blue.button:visited {
+        padding: 25px;
+        margin: 0px 10px;
+        background-color: #172A47 !important;
+        transition: all 1s;
+    }
+    .blue.button:hover {
+        box-shadow: 0px 0px 25px -1px rgba(0,0,0,0.75);
+        transition: all 1s;
+    }
+    .green.button:hover {
+        box-shadow: 0px 0px 25px -1px rgba(0,0,0,0.75);
+        transition: all 1s;
+    }
+    .green.button, .green.button:visited {
+        padding: 25px;
+        margin: 0px 10px;
+        font-weight: 500 !important;
+        color: #172A47 !important;
+        background-color: #3031324b !important;
+        transition: all 1s;
+    }
+    #content .thread-body{
+        text-align: -webkit-center !important;
+        margin-bottom: 40px !important;
+        margin-top: 15px;
+    }
+  
+    #content .thread-body p{
+        text-align: justify !important;
+        padding: 15px 0px;
+    }
+  
+/*fin nuevo*/
+
+/*Nuevo Ticket*/
+
+    form {
+        text-align: -webkit-center;
+        width: 60%;
+        margin: auto !important;
+        box-shadow: 0px 0px 15px 1px rgb(119 119 119 / 86%);
+        border-radius: 30px;
+        padding: 0px 20px 20px 20px;
+        margin-top: 30px !important;
+    }
+
+    #ticketSearchForm input[type=text]{
+        width: 70% !important;
+    }
+
+    form table {
+        width: 70%;
+    }
+    
+    #ticketInfo{
+        margin: auto !important;
+    }
+
+    table hr{
+        border: none;
+    }
+
+    form h3{
+        text-align: center;
+        font-size: 23px;
+        color: #172A47;
+    }
+
+    form td{
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+    }
+
+    form #ticketSearchForm{
+        margin-top: 30px !important;
+        margin-bottom: 30px !important;
+    }
+
+    form input[type=email],input[type=text], input[type=tel]{
+        width: 100%;
+        height: 30px;
+        margin-top: 8px;
+        border-radius: 8px;
+        border: 2px solid #acacac;
+        padding: 2px 10px;
+    }
+
+    form input[type=password]{
+        width: 80%;
+        height: 30px;
+        margin-top: 8px;
+        border-radius: 8px;
+        border: 2px solid #acacac;
+        padding: 2px 10px;
+    }
+
+    form input[type=email]:focus, input[type=text]:focus, input[type=tel]:focus{
+        box-shadow: 0px 0px 5px 1px rgba(119, 119, 119, 0.863);
+    }
+
+    form input[type=tel] {
+        width: 35%;
+        margin-right: 5px;
+    }
+
+    form input[type=tel] + input{
+        width: 10%;
+        margin-left: 10px;
+    }
+
+    #ticketForm #captcha{
+        width: 80%;
+        height: 30px;
+        border-radius: 8px;
+        border: 2px solid #acacac;
+        padding: 1px 10px;
+    }
+
+    form select{
+        width: 100%;
+        height: 40px;
+        margin-top: 8px;
+        border-radius: 8px;
+        border: 2px solid #acacac;
+        padding: 5px 15px;
+    }
+
+    form select:focus{
+        box-shadow: 0px 0px 5px 1px rgba(119, 119, 119, 0.863);
+    }
+
+    form select option{
+        color: #303132;
+        font-size: 16px;
+    }
+
+    #ticketForm #topicId{
+        margin-top: 0px;
+        width: 96% !important;
+    }
+
+    #ticketThread{
+        margin: auto !important;
+        padding: 0 15%;
+    }
+
+    .thread-body{
+        width: 100%;
+    }
+
+    #ticketForm .captchaRow{
+        display: inline-grid;
+        width: 100%;
+        align-content: space-between;
+        padding: 5px;
+    }
+
+    form td em{
+        color: #777;
+        margin-left: 5px;
+    }
+
+    form td span{
+        color: #303132;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    form td{
+        color: #303132;
+        font-size: 16px;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+
+    form td span .error{
+        color: red;
+    }
+    
+    #ticketForm td .redactor-styles {
+        text-align-last: left !important;
+    }
+    
+    #ticketForm .form-header b{
+        font-weight: bold;
+        font-size: 20px;
+        color: #303132;
+    }   
+
+    #ticketForm .captchaRow td{
+        font-size: 16px;
+        color: #172A47;
+        font-weight: bold;
+    }
+
+    #ticketForm .buttons {
+        text-align: end !important;
+        margin-right: 30px;
+        padding-bottom: 10px;
+    }
+
+    #ticketForm .buttons input {
+        margin: 5px;
+        background-color: #172A47;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 10px 15px;
+        border-radius: 10px;
+        border: none;
+        transition: all 0.5s;
+    }
+
+    #ticketForm .buttons input:hover {
+        box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
+        transition: all 0.5s;
+    }
+
+    input[type=reset]{
+        background-color: white !important;
+        color: #172A47 !important;
+        border: 3px solid #303132 !important;
+        padding: 7px 12px;
+        border-radius: 10px;
+        border: none;
+        transition: all 0.5s;
+    }
+
+    #ticketForm .buttons input[type=button]{
+        background-color: white !important;
+        color: rgb(190, 29, 29) !important;
+        border: 3px solid rgb(190, 29, 29) !important;
+        padding: 7px 12px;
+    }
+
+    #ticketForm .form-header p{
+        font-weight: 300;
+        text-align: justify;
+    }
+
+/*Fin nuevo Ticket*/
+
+/*Tickets Status*/
+
+    #clientLogin{
+        width: 80%;
+        margin: auto;
+        background-color: #fff !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+    
+    #clientLogin .login-box label{
+        font-size: 17px;
+        font-weight: 600;
+        color: #172A47;
+    }
+    #clientLogin .login-box input[type=text]{
+        margin-top: 15px;
+        width: 350px;
+        height: 35px;
+        border-radius: 0px !important;
+        background-color: transparent;
+        border-bottom: solid 2px #303132 ;
+        border-top: none ;
+        border-left: none;
+        border-right: none;
+    }
+    #clientLogin .login-box ::placeholder{
+        color: rgb(153, 153, 153);
+    }
+    #clientLogin .login-box .btn{
+        margin-top: 15px !important;
+        background-color: #172A47;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 10px;
+        margin: auto;
+    }
+
+    #content h1, #content p{
+        text-align: center;
+    }
+
+/*Final tickets Status*/
+
+/*Login*/
+
+#clientLogin #username {
+    margin-top: 15px;
+    width: 350px;
+    height: 35px;
+    border-radius: 8px !important;
+    background-color: transparent;
+    border: solid 2px #303132;
+}
+
+#clientLogin #passwd {
+    margin-top: 15px;
+    width: 350px;
+    height: 35px;
+    border-radius: 8px !important;
+    background-color: transparent;
+    border: solid 2px #303132;
+}
+
+/*Final Login*/
+
+/*Formulario de Registro*/
+
+.action-button{
+    margin-top: 15px !important;
+    background-color: #172A47;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+ input[type=button], input[type=submit]{
+    margin: 5px;
+    background-color: #172A47 !important;
+    color: white !important;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 15px !important;
+    border-radius: 10px !important;
+    border: none !important;
+    transition: all 0.5s;
+    margin-bottom: 10px;
+}
+
+input[type=button]{
+    background-color: white !important;
+    color: rgb(190, 29, 29) !important;
+    border: 3px solid rgb(190, 29, 29) !important;
+    padding: 7px 12px;
+}
+
+/*Fin formulario de registro*/
+
+/*Login agents*/
+
+/*FinalLogin agents*/
+
+/* Overlay */
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    z-index: 1000;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+#loading {
+    border:1px solid #2a67ac;
+    padding: 10px 10px 10px 60px;
+    width: 300px;
+    height: 100px;
+    background: rgb( 255, 255, 255) url('../images/FhHRx-Spinner.gif') 10px 50% no-repeat;
+    position: fixed;
+    display: none;
+    z-index: 3000;
+}
+
+#loading h4 { margin: 3px 0 0 0; padding: 0; color: #d80; }
+
+.pull-right {
+    float: right;
+}
+
+.non-local-image {
+    display: inline-block;
+    border: 3px dashed #eee;
+    border-radius: 5px;
+}
+
+.non-local-image:after {
+    background: url(../logo.php) center center no-repeat;
+    background-size: cover;
+    content: "";
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 0.3;
+}
+
+div.section-break {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    padding-top: 0.8em !important;
+    border-top: 1px solid #ccc;
+}
+
+input.dp {
+    width: 10em;
+}
+
+/* Custom css for datepicker */
+.ui-datepicker-trigger {
+    display:inline-block;
+    border:0;
+    padding:0;
+    margin-left:2px;
+    position:relative;
+    top:-2px;
+    width:16px;
+    height:16px;
+    background:inherit;
+}
+
+.draft-saved {
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 4px 8px 6px;
+    border-radius: 3px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    line-height: 14px;
+    position: absolute;
+    top: 3em;
+    right: 0.5em;
+}
+
+.delete-draft:hover {
+    background-color: #fc9f41 !important;
+}
+
+.notice_bar { margin: 0; padding: 5px 10px 5px 36px; height: 16px; line-height: 16px; border: 1px solid #0a0; background: url('../assets/default/images/icons/ok.png') 10px 50% no-repeat #e0ffe0; }
+
+.warning_bar { margin: 0; padding: 5px 10px 5px 36px; height: 16px; line-height: 16px; border: 1px solid #f26522; background: url('../assets/default/images/icons/alert.png') 10px 50% no-repeat #ffffdd; }
+
+.error_bar { margin: 0; padding: 5px 10px 5px 36px; height: 16px; line-height: 16px; border: 1px solid #a00; background: url('../assets/default/images/icons/error.png') 10px 50% no-repeat #fff0f0; }
