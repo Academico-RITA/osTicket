@@ -4,6 +4,6 @@ upload/scp/logs/
 upload/scp/uploads/
 
 upload/config/ost-config.php
-upload/osticket/include/ost-config.php
-upload/osticket/include/ost-sampleconfig.php
-upload/osticket/include/ost-sampleconfig.php.new
+upload/include/ost-config.php
+upload/include/ost-sampleconfig.php
+upload/include/ost-sampleconfig.php.new
